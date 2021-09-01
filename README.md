@@ -1,6 +1,6 @@
-ECHO ist eingeschaltet (ON).
+#First Commit
 
 
-
+-----
 
 2 Programme aus dem Grundlagen-Script.
