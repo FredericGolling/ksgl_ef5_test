@@ -6,8 +6,6 @@ def reverse(s):
     else:
         return reverse(s[1:]) + s[0]
 
-
-
 def Dezimal(Zahl):
     outcome = 0
     HexArchive = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
@@ -39,16 +37,20 @@ def Dezimal(Zahl):
             print(outcome)
             return outcome
 
-Dezimal(1100)
 
-werte = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"]
-hexzahl = []
-y = int(input("zahl"))
-while y > 0:
-    rest = y % 16
-    y = y // 16
-    hexzahl.append(werte[rest])
 
-hexzahl.reverse()
-print(hexzahl)
-print(''.join(str(x) for x in hexzahl))
+
+
+
+# hexadecimal string
+hex = input()
+
+# conversion
+dec = int(hex, 16)
+
+print('Value in hexadecimal:', hex)
+print('Value in decimal:', dec)
+
+
+binary = input()
+print(int(binary,2))
